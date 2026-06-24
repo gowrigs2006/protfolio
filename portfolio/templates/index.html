@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio website of Gowrishankar Ponnusamy. Web developer and Machine Learning enthusiast showing projects, experience, and contact details.">
+  <title>Gowrishankar Ponnusamy | Software Engineer & Web Developer Portfolio</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- Background Orbs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#home" class="logo">GOWRISHANKAR.PP</a>
+      
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <!-- SVG paths filled by JS based on theme -->
+          </svg>
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-subtitle">Hello World, I'm</p>
+      <h1 class="hero-title">Gowrishankar <span>Ponnusamy</span></h1>
+      <div class="hero-typing">
+        <span id="typing-text"></span>
+      </div>
+      <p class="hero-desc">
+        Final-year Computer Science Engineering student with hands-on experience in full-stack web development and ML-powered systems. Specialized in Python, Flask, Node.js, and JavaScript.
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        <a href="#projects" class="btn btn-secondary">View Work</a>
+      </div>
+    </div>
+
+    <div class="hero-image-container">
+      <div class="hero-img-wrapper">
+        <img src="/static/self coat.jpeg" alt="Gowrishankar Ponnusamy illustration" class="hero-img" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="reveal">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-grid">
+      <div class="about-details">
+        <p class="about-text">
+          I am a passionate software engineer based in Coimbatore, Tamil Nadu. Currently pursuing my B.E. in Computer Science Engineering, I focus on building responsive, highly functional web products and robust machine learning applications.
+        </p>
+        <p class="about-text">
+          Through three distinct internship roles, I've developed a solid foundation in front-end design, back-end development, API integrations, and IoT architecture. I love solving complex algorithms, designing elegant database schemas, and translating machine learning logic into interactive REST APIs.
+        </p>
+        <div class="hero-btns">
+          <a href="#experience" class="btn btn-secondary">My Timeline</a>
+        </div>
+      </div>
+
+      <div class="credentials-container">
+        <!-- Education -->
+        <div class="glass-card credential-card">
+          <div class="credential-title">
+            <h3>B.E. Computer Science</h3>
+            <span class="gpa-badge">GPA 7.9/10</span>
+          </div>
+          <p class="credential-meta">Nandha College of Technology | 2023 - 2027</p>
+          <p class="credential-desc">Focusing on Algorithms, Database Systems, Software Engineering, and Artificial Intelligence foundations.</p>
+        </div>
+
+        <!-- Certification -->
+        <div class="glass-card credential-card">
+          <div class="credential-title">
+            <h3>Linux Administration Training</h3>
+          </div>
+          <p class="credential-meta">Besant Technologies | Apr 2026</p>
+          <p class="credential-desc">Certified under ID: <strong>BDZ-146636</strong>. Covered shell scripting, system permissions, automation, and core Linux utilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="reveal">
+    <h2 class="section-title">Work <span>Experience</span></h2>
+    <div class="timeline">
+      <!-- Cognifyz -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="glass-card timeline-content">
+          <div class="timeline-header">
+            <div>
+              <h3 class="role-title">Web Developer Intern</h3>
+              <p class="company-name">Cognifyz Technologies</p>
+            </div>
+            <span class="timeline-date">Dec 2025 - Jan 2026</span>
+          </div>
+          <ul class="timeline-list">
+            <li>Built 3 responsive, user-friendly web features using HTML, CSS, and JavaScript, improving overall UI consistency and reducing navigation issues.</li>
+            <li>Integrated REST APIs for real-time data fetching and dynamic DOM rendering, avoiding page reloads and improving user experience.</li>
+            <li>Delivered all sprint tasks on schedule across a 2-month remote engagement using Git-based workflows.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Training Trains -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="glass-card timeline-content">
+          <div class="timeline-header">
+            <div>
+              <h3 class="role-title">Full Stack Developer Intern</h3>
+              <p class="company-name">Training Trains Software Technology</p>
+            </div>
+            <span class="timeline-date">Jul 2025 - Aug 2025</span>
+          </div>
+          <ul class="timeline-list">
+            <li>Architected a task management application featuring full CRUD functionalities using Node.js, PHP, HTML, and CSS utilized by 5 core team collaborators.</li>
+            <li>Managed Git branching strategies and pull request reviews to ensure clean merge cycles.</li>
+            <li>Diagnosed, debugged, and fixed 10+ frontend and backend bugs, boosting website reliability.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Topengineers -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="glass-card timeline-content">
+          <div class="timeline-header">
+            <div>
+              <h3 class="role-title">AIoT Intern</h3>
+              <p class="company-name">Topengineers (International)</p>
+            </div>
+            <span class="timeline-date">Jan 2024</span>
+          </div>
+          <ul class="timeline-list">
+            <li>Analysed AIoT deployments across agriculture, healthcare, and smart city environments to measure sensor reliability.</li>
+            <li>Authored a comprehensive, structured technical report highlighting best practices in cloud-IoT sensor configurations.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="reveal">
+    <h2 class="section-title">Technical <span>Skills</span></h2>
+    <div class="skills-grid">
+      <!-- Main Core Skill Bars -->
+      <div class="glass-card skills-category reveal">
+        <h3 class="category-title">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/></svg>
+          Core Focus Areas
+        </h3>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Frontend Web Development</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Backend API & Servers</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-percent="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Machine Learning (basics)</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-percent="75"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Linux Systems</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-percent="80"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Languages, Frameworks, DBs -->
+      <div class="glass-card skills-category reveal">
+        <h3 class="category-title">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6L2 12l6 6"/></svg>
+          Tech Stack
+        </h3>
+        <div class="skills-list">
+          <div class="skill-item">
+            <span class="skill-name" style="margin-bottom: 8px;">Languages</span>
+            <div class="badge-container">
+              <span class="badge">Java</span>
+              <span class="badge">Python</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">PHP</span>
+              <span class="badge">SQL</span>
+              <span class="badge">Bash</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name" style="margin-bottom: 8px;">Web & Databases</span>
+            <div class="badge-container">
+              <span class="badge">HTML5 & CSS3</span>
+              <span class="badge">Flask</span>
+              <span class="badge">Node.js</span>
+              <span class="badge">MySQL</span>
+              <span class="badge">SQLite</span>
+              <span class="badge">REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Concepts -->
+      <div class="glass-card skills-category reveal">
+        <h3 class="category-title">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          Tools & Workflows
+        </h3>
+        <div class="skills-list">
+          <div class="skill-item">
+            <span class="skill-name" style="margin-bottom: 8px;">Development & Cloud Tools</span>
+            <div class="badge-container">
+              <span class="badge">Git / GitHub</span>
+              <span class="badge">VS Code</span>
+              <span class="badge">Postman</span>
+              <span class="badge">XAMPP</span>
+              <span class="badge">AWS</span>
+              <span class="badge">Azure</span>
+              <span class="badge">Linux CLI</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name" style="margin-bottom: 8px;">Software Engineering Concepts</span>
+            <div class="badge-container">
+              <span class="badge">OOP</span>
+              <span class="badge">Data Structures (DSA)</span>
+              <span class="badge">Agile / Scrum</span>
+              <span class="badge">Git Flow</span>
+              <span class="badge">Sensors / AIoT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="reveal">
+    <h2 class="section-title">My <span>Projects</span></h2>
+    
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="web">Web Dev</button>
+      <button class="filter-btn" data-filter="ml">Machine Learning</button>
+      <button class="filter-btn" data-filter="python">Python Tools</button>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card-wrapper reveal" data-category="ml web">
+        <div class="glass-card project-card">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-btn" aria-label="GitHub Repository">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3>Health Risk Predictor</h3>
+            <p>
+              Trained a Logistic Regression model on 1,500 records achieving 84% predictive accuracy. Integrated real-time API queries served via a Flask backend. Constructed a responsive client-side interface for immediate, zero-reload prediction feedback, optimized for cloud deployment.
+            </p>
+          </div>
+          <div class="project-card-footer">
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">scikit-learn</span>
+              <span class="tech-tag">HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card-wrapper reveal" data-category="python">
+        <div class="glass-card project-card">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-btn" aria-label="GitHub Repository">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3>Voice Assistant Desktop App</h3>
+            <p>
+              Developed a voice-activated virtual assistant capable of controlling local file systems, invoking browser web searches, and executing 10+ standard OS commands. Designed for near real-time execution with optimized latency rates.
+            </p>
+          </div>
+          <div class="project-card-footer">
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SpeechRecognition</span>
+              <span class="tech-tag">pyttsx3</span>
+              <span class="tech-tag">OS API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card-wrapper reveal" data-category="web">
+        <div class="glass-card project-card">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-btn" aria-label="Live Demo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3>Interactive UI Component Library</h3>
+            <p>
+              Engineered a highly responsive frontend components collection showcasing modern UI patterns (cards, modals, menus, transitions) mapped perfectly across viewport sizes ranging from 320px to 1440px. Fully compatible across modern browsers.
+            </p>
+          </div>
+          <div class="project-card-footer">
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Responsive Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="reveal">
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <!-- Card 1: Email -->
+        <div class="glass-card contact-card">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="contact-card-details">
+            <h4>Email Me</h4>
+            <p><a href="#" id="email-link" data-email="gowrishankargs1502@gmail.com" title="Click to copy email">gowrishankargs1502@gmail.com</a></p>
+          </div>
+        </div>
+
+        <!-- Card 2: Phone -->
+        <div class="glass-card contact-card">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <div class="contact-card-details">
+            <h4>Call Me</h4>
+            <p><a href="tel:+919345746686">+91 9345746686</a></p>
+          </div>
+        </div>
+
+        <!-- Card 3: Location -->
+        <div class="glass-card contact-card">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="contact-card-details">
+            <h4>Location</h4>
+            <p>Coimbatore, Tamil Nadu, India</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="glass-card contact-form-container">
+        <form id="contact-form" autocomplete="off">
+          <div class="form-group">
+            <input type="text" id="form-name" class="form-input" placeholder=" " required>
+            <label for="form-name" class="form-label">Full Name</label>
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="form-email" class="form-input" placeholder=" " required>
+            <label for="form-email" class="form-label">Email Address</label>
+          </div>
+
+          <div class="form-group">
+            <input type="text" id="form-subject" class="form-input" placeholder=" " required>
+            <label for="form-subject" class="form-label">Subject</label>
+          </div>
+
+          <div class="form-group">
+            <textarea id="form-message" class="form-input" placeholder=" " required></textarea>
+            <label for="form-message" class="form-label">Your Message</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="border: none; width: 100%;">Send Message</button>
+        </form>
+        
+        <div class="form-success-message" id="form-success">
+          Thank you! Your message has been sent successfully. I will get back to you shortly.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-socials">
+      <!-- GitHub -->
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <!-- Email -->
+      <a href="mailto:gowrishankarponnusamyed1304@gmail.com" class="social-icon-btn" aria-label="Email Me">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+    <p>&copy; 2026 Gowrishankar Ponnusamy. All Rights Reserved.</p>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
