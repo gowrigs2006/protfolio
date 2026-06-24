@@ -69,7 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Typing Effect in Hero ---
   const typingTextElement = document.getElementById('typing-text');
-  const words = ["Full Stack Developer", "Machine Learning Enthusiast", "CSE Graduate Undergrad", "AIoT Pioneer"];
+const words = [
+  "AWS Solutions Architect",
+  "Cloud Engineer",
+  "Linux Administrator",
+  "AWS Cloud Practitioner"
+];
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
