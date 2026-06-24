@@ -156,29 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // --- Contact Form Submission & Feedback ---
-  const contactForm = document.getElementById('contact-form');
-  const formSuccess = document.getElementById('form-success');
-
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-
-      // Get values
-      const name = document.getElementById('form-name').value;
-      const email = document.getElementById('form-email').value;
-      const subject = document.getElementById('form-subject').value;
-      const message = document.getElementById('form-message').value;
-
-      // Show temporary loading state
-      const submitBtn = contactForm.querySelector('button[type="submit"]');
-      const originalBtnText = submitBtn.innerHTML;
-      submitBtn.disabled = true;
-      submitBtn.innerHTML = `
-        <svg class="animate-spin" style="animation: spin 1s linear infinite; width: 20px; height: 20px; margin-right: 10px; display: inline-block; vertical-align: middle;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" style="opacity: 0.25;"></circle>
-          <path fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-        </svg> Sending...
-      `;
+  
 
       // API call to Flask server
       fetch('/api/contact', {
