@@ -155,43 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // --- Contact Form Submission & Feedback ---
-  
 
-      // API call to Flask server
-      fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ name, email, subject, message })
-      })
-      .then(response => response.json())
-      .then(data => {
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = originalBtnText;
-
-        if (data.status === 'success') {
-          contactForm.reset();
-          formSuccess.textContent = data.message;
-          formSuccess.style.display = 'block';
-          formSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-
-          setTimeout(() => {
-            formSuccess.style.display = 'none';
-          }, 5000);
-        } else {
-          alert('Error: ' + data.message);
-        }
-      })
-      .catch(err => {
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = originalBtnText;
-        console.error('Error submitting form:', err);
-        alert('An error occurred. Please try again later.');
-      });
-    });
-  }
 
   // --- Copy Email to Clipboard Action ---
   const emailLink = document.getElementById('email-link');
