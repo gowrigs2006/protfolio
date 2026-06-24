@@ -163,6 +163,11 @@ const words = [
 
 
   // --- Copy Email to Clipboard Action ---
+  const subjectField = document.getElementById('subject-field');
+
+if(subjectField){
+    subjectField.value = 'Portfolio Contact - ' + Date.now();
+}
   const emailLink = document.getElementById('email-link');
   if (emailLink) {
     emailLink.addEventListener('click', (e) => {
